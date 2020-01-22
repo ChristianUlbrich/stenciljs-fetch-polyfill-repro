@@ -1,0 +1,24 @@
+{
+  "name": "stenciljs-fetch-polyfill-repro",
+  "version": "0.1.0",
+  "description": "This repo is a reproduction case for StencilJS' embedded `fetch()` polyfill not being loaded if the StencilJS component is loaded via the [recommended way]() for React Apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:component": "cd fetch-component && npm run build",
+    "prestart:pure": "cd stenciljs-pure && npm install",
+    "start:pure": "cd stenciljs-pure && npm start",
+    "prestart:react": "cd stenciljs-react && npm install",
+    "start:react": "cd stenciljs-react && npm run start:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianUlbrich/stenciljs-fetch-polyfill-repro.git"
+  },
+  "author": "Christian Ulbrich <christian.ulbrich@zalari.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianUlbrich/stenciljs-fetch-polyfill-repro/issues"
+  },
+  "homepage": "https://github.com/ChristianUlbrich/stenciljs-fetch-polyfill-repro#readme"
+}

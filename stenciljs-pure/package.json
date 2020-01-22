@@ -1,0 +1,18 @@
+{
+  "name": "stenciljs-pure",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -c-1"
+  },
+  "author": "Christian Ulbrich <christian.ulbrich@zalari.de>",
+  "license": "ISC",
+  "dependencies": {
+    "fetch-component": "file://../fetch-component"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}
